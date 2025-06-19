@@ -20,7 +20,7 @@ function Create() {
     // Convert age to number
     const data = { ...values, age: parseInt(values.age) };
 
-    axios.post('http://localhost:5000/add_user', data)
+    axios.post('http://3.108.249.118:5000/add_user', data)
       .then((res) => {
         if (res.data.success) {
           console.log('Student added:', res.data);
