@@ -10,7 +10,7 @@ const app = express();
 const dbConfig = {
   host: process.env.DATABASE_HOST || "127.0.0.1",
   user: process.env.DATABASE_USER || "root",
-  password: process.env.DATABASE_PASS || "",
+  password: process.env.DATABASE_PASS || "Taskapp@2025!",
   database: process.env.DATABASE || "students",
   waitForConnections: true,
   connectionLimit: 10,
