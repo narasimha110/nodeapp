@@ -7,7 +7,7 @@ function Read() {
   const { id } = useParams();
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/get_student/${id}`)
+      .get(`http://3.108.249.118:5000/get_student/${id}`)
       .then((res) => {
         setData(res.data);
       })
